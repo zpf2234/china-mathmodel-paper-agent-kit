@@ -1,0 +1,4 @@
+interface:
+  display_name: "CUMCM 评价推广"
+  short_description: "撰写证据化优缺点、针对性模型改进以及必要的应用推广"
+  default_prompt: "Use $cumcm-evaluation to write an evidence-linked evaluation and optional extension."

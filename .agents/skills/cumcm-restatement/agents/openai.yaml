@@ -1,0 +1,4 @@
+interface:
+  display_name: "CUMCM 问题重述"
+  short_description: "按固定标题结构忠实改写背景、条件、分问任务与输出"
+  default_prompt: "Use $cumcm-restatement to draft a faithful problem restatement with the fixed background-and-tasks structure."

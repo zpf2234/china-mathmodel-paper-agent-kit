@@ -1,0 +1,4 @@
+interface:
+  display_name: "CUMCM 模型假设"
+  short_description: "将必要假设写成简洁自然的连续编号列表并按需说明范围"
+  default_prompt: "Use $cumcm-assumptions to write a concise, natural numbered assumptions-only section and mention question scope only when useful."

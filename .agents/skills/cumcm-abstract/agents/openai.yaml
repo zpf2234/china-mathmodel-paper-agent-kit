@@ -1,0 +1,4 @@
+interface:
+  display_name: "CUMCM 摘要"
+  short_description: "依据冻结结果撰写定量、克制、结论鲜明的一页完整摘要"
+  default_prompt: "Use $cumcm-abstract to write a one-page evidence-grounded CUMCM abstract."

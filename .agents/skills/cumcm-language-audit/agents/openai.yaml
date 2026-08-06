@@ -1,0 +1,4 @@
+interface:
+  display_name: "CUMCM 语言审计"
+  short_description: "逐章清除元叙事、提示词痕迹、空泛套话以及无效解释说明"
+  default_prompt: "Use $cumcm-language-audit to remove meta-writing and AI-like traces from the paper."

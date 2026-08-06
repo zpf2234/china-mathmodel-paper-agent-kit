@@ -1,0 +1,4 @@
+interface:
+  display_name: "CUMCM 问题分析"
+  short_description: "逐问说明分析思路、真实求解过程及问题间承接关系"
+  default_prompt: "Use $cumcm-analysis to write a concise problem analysis centered on reasoning, solution steps, and question dependencies."

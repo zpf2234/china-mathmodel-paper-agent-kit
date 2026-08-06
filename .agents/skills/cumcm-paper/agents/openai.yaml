@@ -1,0 +1,6 @@
+interface:
+  display_name: "CUMCM 优秀论文写作"
+  short_description: "基于证据矩阵原创撰写并编译国赛论文"
+  default_prompt: "Use $cumcm-paper to turn the validated evidence package and genuine model-selection evidence into an original, competition-ready CUMCM paper."
+policy:
+  allow_implicit_invocation: true

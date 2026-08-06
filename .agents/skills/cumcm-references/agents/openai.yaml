@@ -1,0 +1,4 @@
+interface:
+  display_name: "CUMCM 参考文献"
+  short_description: "逐条核验真实来源并建立正文引文与文末条目的双向闭环"
+  default_prompt: "Use $cumcm-references to verify and format only sources actually used."

@@ -1,0 +1,72 @@
+% Shared TikZ styles for CUMCM diagrams. Compile with XeLaTeX.
+\usetikzlibrary{arrows.meta,positioning,calc,fit,backgrounds,shapes.geometric,angles,quotes}
+
+\definecolor{cumcmInk}{HTML}{202124}
+\definecolor{cumcmLine}{HTML}{3F454B}
+\definecolor{cumcmGray}{HTML}{7A828A}
+\definecolor{cumcmBlue}{HTML}{355C7D}
+\definecolor{cumcmBluePale}{HTML}{EEF3F7}
+\definecolor{cumcmRed}{HTML}{B44C43}
+
+\tikzset{
+  cumcm node/.style={
+    draw=cumcmLine,
+    line width=.7pt,
+    fill=white,
+    text=cumcmInk,
+    font=\small,
+    align=center,
+    inner xsep=6pt,
+    inner ysep=4pt,
+    minimum height=8mm
+  },
+  cumcm process/.style={cumcm node,rectangle,text width=30mm},
+  cumcm process wide/.style={cumcm node,rectangle,text width=40mm},
+  cumcm decision/.style={
+    cumcm node,
+    diamond,
+    aspect=2.2,
+    text width=23mm,
+    inner xsep=2pt,
+    inner ysep=1.5pt
+  },
+  cumcm startstop/.style={cumcm node,rounded corners=2pt,text width=28mm},
+  cumcm group/.style={
+    draw=cumcmGray,
+    densely dashed,
+    line width=.45pt,
+    fill=none,
+    inner sep=6pt
+  },
+  cumcm flow/.style={
+    -{Stealth[length=2.2mm,width=1.45mm]},
+    draw=cumcmLine,
+    line width=.8pt
+  },
+  cumcm relation/.style={draw=cumcmLine,line width=.7pt},
+  cumcm feedback/.style={cumcm flow,rounded corners=2pt},
+  cumcm helper/.style={draw=cumcmGray,line width=.5pt,densely dashed},
+  cumcm object/.style={draw=cumcmLine,line width=.8pt,fill=white},
+  cumcm trajectory/.style={
+    -{Stealth[length=2mm,width=1.3mm]},
+    draw=cumcmLine,
+    line width=.9pt
+  },
+  cumcm criterion/.style={draw=cumcmBlue,line width=1pt},
+  cumcm alert/.style={draw=cumcmRed,line width=1pt},
+  cumcm label/.style={
+    text=cumcmInk,
+    font=\small,
+    fill=none,
+    draw=none,
+    inner sep=1.5pt
+  },
+  cumcm branch label/.style={
+    text=cumcmInk,
+    font=\footnotesize,
+    fill=none,
+    draw=none,
+    inner sep=1.2pt
+  }
+}
+

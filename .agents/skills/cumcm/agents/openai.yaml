@@ -1,0 +1,6 @@
+interface:
+  display_name: "CUMCM 优秀论文总控"
+  short_description: "无参考择优建模、答案验证、成文与审查"
+  default_prompt: "Use $cumcm to solve this CUMCM problem without answer leakage, select models by independent evidence, and produce an audited candidate paper."
+policy:
+  allow_implicit_invocation: true

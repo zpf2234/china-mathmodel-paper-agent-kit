@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Build/cache/logs
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+*.aux
+*.tmp
+
+# Generated benchmark outputs
+benchmark_outputs/
+fidelity_outputs/
+mixed_demo_outputs/
+pixel_fidelity_outputs/
+reference_outputs/
+signature_benchmark_outputs/
+cron_render_outputs/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

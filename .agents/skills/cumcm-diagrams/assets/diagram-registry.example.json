@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "diagrams": [
+    {
+      "id": "fig-model-flow",
+      "role": "flowchart",
+      "purpose": "说明参数更新、判停与回退之间的真实计算关系",
+      "claim_ids": ["C-Q2-01"],
+      "style_family": "visio",
+      "source": "论文/figures/model-flow.vsdx",
+      "vector_output": "论文/figures/model-flow.pdf",
+      "layout": "论文/figures/model-flow.layout.json",
+      "insert_width_mm": 120,
+      "final_min_font_pt": 8.5,
+      "generation": {
+        "mode": "mcp",
+        "renderer": "paper-visio",
+        "tool": "render_diagram",
+        "health_pass": true,
+        "spec_path": "审查/diagram-specs/model-flow.json",
+        "provenance_manifest": "审查/provenance/model-flow.json"
+      },
+      "vector_audit": {
+        "true_vector": true,
+        "aspect_ratio_distortion": 0.0
+      },
+      "visual_review": {
+        "actual_size_render": "审查/diagram-renders/model-flow-actual.png",
+        "full_page_render": "审查/diagram-renders/model-flow-page.png",
+        "thumbnail_render": "审查/diagram-renders/model-flow-thumb.png",
+        "grayscale_render": "审查/diagram-renders/model-flow-gray.png",
+        "publication_ready": true,
+        "visio_review_record": "审查/provenance/model-flow-visio-review.json"
+      }
+    }
+  ]
+}

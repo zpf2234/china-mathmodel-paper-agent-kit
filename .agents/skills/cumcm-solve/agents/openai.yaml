@@ -1,0 +1,6 @@
+interface:
+  display_name: "CUMCM 证据求解"
+  short_description: "无参考候选择优并验证答案充分性"
+  default_prompt: "Use $cumcm-solve to compare reference-free candidate models and build an independently validated, fully traceable answer package."
+policy:
+  allow_implicit_invocation: true

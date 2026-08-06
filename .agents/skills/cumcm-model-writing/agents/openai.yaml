@@ -1,0 +1,4 @@
+interface:
+  display_name: "CUMCM 建模求解成文"
+  short_description: "将真实模型、推导与具体求解过程写入论文第五部分"
+  default_prompt: "Use $cumcm-model-writing to write the fifth section, Model Establishment and Solution, from verified evidence."
